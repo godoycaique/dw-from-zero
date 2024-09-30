@@ -1,0 +1,124 @@
+[0m13:04:46.859569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EA7AAA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EA7A9640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EA7A9910>]}
+
+
+============================== 13:04:46.859569 | 8dc20d6b-2fe1-4f32-bce7-eac714e6d1ed ==============================
+[0m13:04:46.859569 [info ] [MainThread]: Running with dbt=1.8.7
+[0m13:04:46.875194 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Godoy\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:04:46.895256 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Godoy/.dbt')}
+[0m13:04:46.896243 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:05:14.788067 [debug] [MainThread]: Starter project path: C:\Users\Godoy\jornadadedados\dw-from-zero\.venv\Lib\site-packages\dbt\include\starter_project
+[0m13:05:14.816730 [info ] [MainThread]: 
+Your new dbt project "dwfromzero" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:05:14.818732 [info ] [MainThread]: Setting up your profile.
+[0m13:06:38.502185 [info ] [MainThread]: Profile dwfromzero written to C:\Users\Godoy\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:06:38.504189 [debug] [MainThread]: Command `dbt init` succeeded at 13:06:38.504189 after 111.73 seconds
+[0m13:06:38.505183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EA4E7E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220E8538770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220E9B2F8F0>]}
+[0m13:06:38.505183 [debug] [MainThread]: Flushing usage events
+[0m13:08:36.706592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B16587EB70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B16561E570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B16269E9F0>]}
+
+
+============================== 13:08:36.710127 | c23ed764-1365-4159-bdcf-c4304c0db84b ==============================
+[0m13:08:36.710127 [info ] [MainThread]: Running with dbt=1.8.7
+[0m13:08:36.711417 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Godoy\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m13:08:48.812476 [info ] [MainThread]: A project called dwfromzero already exists here.
+[0m13:08:48.812476 [debug] [MainThread]: Command `dbt init` succeeded at 13:08:48.812476 after 12.26 seconds
+[0m13:08:48.812476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B165482240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B165C05520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B16269E9F0>]}
+[0m13:08:48.812476 [debug] [MainThread]: Flushing usage events
+[0m14:53:11.715659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D795B2330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D792BF830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D79C08D70>]}
+
+
+============================== 14:53:11.715659 | dd003af3-9237-4beb-a812-fd8c87246edc ==============================
+[0m14:53:11.715659 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:53:11.715659 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Godoy\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m14:53:14.864553 [debug] [MainThread]: Starter project path: C:\Users\Godoy\jornadadedados\dw-from-zero\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:53:14.879932 [info ] [MainThread]: 
+Your new dbt project "dwfromzero" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:53:14.895779 [info ] [MainThread]: Setting up your profile.
+[0m14:54:05.121528 [info ] [MainThread]: Profile dwfromzero written to C:\Users\Godoy\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:54:05.122510 [debug] [MainThread]: Command `dbt init` succeeded at 14:54:05.122510 after 53.56 seconds
+[0m14:54:05.123530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D7C06A750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D75FE3F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D7B7228D0>]}
+[0m14:54:05.123530 [debug] [MainThread]: Flushing usage events
+[0m14:54:45.261047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F58151EC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F584142660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F584142750>]}
+
+
+============================== 14:54:45.276675 | 37de996c-0b9e-4021-bd6f-84a01c704882 ==============================
+[0m14:54:45.276675 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:54:45.276675 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Godoy\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:54:49.072314 [debug] [MainThread]: Starter project path: C:\Users\Godoy\jornadadedados\dw-from-zero\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:54:49.089996 [info ] [MainThread]: 
+Your new dbt project "dwfromzero" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:54:49.092000 [info ] [MainThread]: Setting up your profile.
+[0m14:55:23.218900 [info ] [MainThread]: Profile dwfromzero written to C:\Users\Godoy\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:55:23.220903 [debug] [MainThread]: Command `dbt init` succeeded at 14:55:23.219889 after 38.08 seconds
+[0m14:55:23.220903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F583E6D7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F58438A1E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5842C62A0>]}
+[0m14:55:23.221902 [debug] [MainThread]: Flushing usage events
+[0m14:55:55.597302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA7D71A000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA7CFCE1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA7CA98200>]}
+
+
+============================== 14:55:55.612946 | 7d958824-bb19-4ac2-94fe-e7d91c5d4e99 ==============================
+[0m14:55:55.612946 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:55:55.612946 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Godoy\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:56:02.212094 [debug] [MainThread]: Starter project path: C:\Users\Godoy\jornadadedados\dw-from-zero\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:56:02.231472 [info ] [MainThread]: 
+Your new dbt project "dwsales" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:56:02.232483 [info ] [MainThread]: Setting up your profile.
+[0m14:56:30.062920 [info ] [MainThread]: Profile dwsales written to C:\Users\Godoy\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:56:30.064629 [debug] [MainThread]: Command `dbt init` succeeded at 14:56:30.064629 after 34.56 seconds
+[0m14:56:30.064629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA7B289490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA7DA97CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA7CD3DB50>]}
+[0m14:56:30.065618 [debug] [MainThread]: Flushing usage events
