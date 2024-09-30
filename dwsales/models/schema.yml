@@ -1,0 +1,27 @@
+vesrion: 2
+
+sources:
+  - name: dbsales_wvdl
+    schema: public
+    tables:
+      - name: commodities
+        description: "Tabela que contem dados historicos de commodities"
+        columns:
+          - name: Date
+            description: "Data da observação"
+          - name: Close
+            description: "Preço de fechamendo da commodity"
+          - name: simbolo
+            description: "Simbolod da commodity"
+  
+      - name: movimentacao_commodities
+        description: "Tabela CSV de movimentação de commodities"
+        columns:
+          - name: date
+            description: "Data da transação"
+          - name: symbol
+            description: "Simbolo da commodity"
+          - name: action
+            description: "Tipo de transação (buy/sell)"
+          - name: quantity
+            description: "Quantidade transacionada"
